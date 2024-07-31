@@ -1,0 +1,6 @@
+@PrometheusGrafana.API_HostAddress = http://localhost:5006
+
+GET {{PrometheusGrafana.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
